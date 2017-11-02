@@ -19,7 +19,6 @@ def remove_strawberry(contacts)
     attributes_hash.each do |attribute, details|
 
       if attribute == :favorite_ice_cream_flavors
-          binding.pry
         if details.include?("strawberry")
           details.delete("strawberry")
         end
