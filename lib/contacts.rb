@@ -21,7 +21,7 @@ def remove_strawberry(contacts)
       if attribute == :favorite_ice_cream_flavors
           binding.pry
         if details.include?("strawberry")
-          detailes.delete("strawberry")
+          details.delete("strawberry")
         end
       end
     end
