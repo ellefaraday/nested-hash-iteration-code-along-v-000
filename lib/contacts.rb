@@ -20,8 +20,8 @@ def remove_strawberry(contacts)
       if attribute == :favorite_ice_cream_flavors
         if attribute.include?("strawberry")
           attribute.delete("strawberry")
+        end
       end
     end
   end
-  contacts
 end
